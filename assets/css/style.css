@@ -15,11 +15,27 @@ body {
     color: #3a3a3a;
     font-family:'EB Garamond', serif;
 }
+/* SciAIMed logo description header*/
+h3 {
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding-bottom: 10px;
+  }
 
 /* Header */
+/* Header background*/
 header {
-    background-color:beige;
-}
+    background-color:black;
+    position: relative;
+    max-height: 20vh;
+  }
+  .celticknot {
+    margin-top: 1%;
+    margin-left: 5%;
+  }
+
 /* Main */
 main {
     background-color: lightblue;
