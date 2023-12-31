@@ -1,9 +1,12 @@
+/*Google font import*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lato:wght@300&family=Merriweather:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap');
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
 * {padding: 0; 
     margin: 0; 
     box-sizing:border-box;
 }
+
 /* General styles */
 body {
     min-height: 100vh;
