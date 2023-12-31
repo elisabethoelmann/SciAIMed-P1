@@ -70,6 +70,33 @@ main {
     /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
 }
+
+/* Clinical Development Introduction section*/
+#Home {
+  width: 100%;
+  background: url("../../assets/images/MedSci-614.png") no-repeat center center/cover;
+}
+ h1{
+  width: 90%;
+  text-align:center;
+  }
+
+h2 {
+  width: 90%;
+  font-weight: bold;
+  text-align:center;
+}
+
+.introduction {
+  width: 80%;
+  background-color: rgba(230, 244, 254, 0.6);
+  padding: 10px 10px; 
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 25px;
+}
+
 /* Footer */
 footer {
     background-color:beige;
