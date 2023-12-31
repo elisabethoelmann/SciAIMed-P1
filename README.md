@@ -1,2 +1,2 @@
-# SciAIMed3-P1
+# SciAIMed-P1
 my webpage P1
