@@ -89,6 +89,11 @@ main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
         flex: 1 0 auto;
+        margin-top: 0px;
+        background-color:lightblue;
+         /* Enable flex properties for child elements */
+         display: flex;
+         flex-direction: column;
 }
 
 /* Clinical Development Introduction section*/
