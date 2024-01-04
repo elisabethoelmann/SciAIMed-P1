@@ -74,4 +74,20 @@ The black background of the header, expertise section sets a nice contrast to th
 I used Google fonts 'EB Garamond', serif;' due to its simple and elegant design
 ![] (docs/images/Google fonts selection EB Garamont.png)
 
+### **Features**
+This is a fully responsive website that was designed to be also approriately displayed on mobile phones, although clients likely would mostly use large screens for a search of a Clinical Consultancy company and use mobile phones only during travel times.
+The page is divided into the four sections listed in the navbar. 
+The font used for the whole page is EB Garamont. No more fonts have been chosen,  due to the fact, that this is a scientific consultancy page, where users do not expect fancy design features, which would distract from the contents.
+If the background colour is black, the text is chosen to be either white for the header and footer or white smoke for the expertise section. The colour of the subtitles of the Expertise section are chosen to be blue-green (#04948aed) to set a contrast to the rest of the text sections.
+
+### **Title and Logo**
+The title is designed with my company name: SciAiMed Ltd. and the celtic salomon’s knot, which is one of the most ancient symbols for the connection between humans and the divine and in recent times in science is used to symbolise atoms, where electrons are orbiting around the nucleus. It appeared therefore to me to be a nice choice. (source: https://en.wikipedia.org/wiki/Solomon%27s_knot)
+
+### **Navbar**
+The navbar was created with help from W3 schools: (source: https://www.w3schools.com/howto/howto_css_navbar_icon.asp)
+However, for a more elegant design, I decided to delete the icons (fontawsome), but used the code.
+
+### **The introduction section**
+This section outlines the general purpose of the consultancy company with a title (h1 element) describing the general purpose. The welcome section with the subtitle (h2 element) stating the company name heads up the more detailed description of the company’s purpose.
+The background image shows a typical scientific background with a DNA structure and sample tubes, which are normally send for explorations and scientific experiments.
 
