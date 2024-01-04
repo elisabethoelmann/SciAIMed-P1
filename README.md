@@ -41,5 +41,37 @@ What these users would be looking for:
 •	Clear, concise, easy-to-find information about services
 •	Clear and concise easy to read expertise section, on which the services are based
 
-This website will offer these options, also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance which would look less professional
-Due to ease of use, it is assumed that users will be also be viewing the site on their mobile phones and therefore creating a responsive design has been important.
+This website will offer these options, also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance which would look less professional.
+Due to ease of use, it is assumed that users will be also be viewing the site on their mobile phones and therefore creating a responsive design was important.
+
+### **Scope**
+In order to achieve the desired user & business goals, the following features are included in this release:
+
+• Header and menu bar, to navigate to various sections of the page
+• Introduction section to outline the overall goal of the page
+• Services offered
+• Expertise/education section
+• Contact form with options to send an email, contact me via mbile and a link to my LinkedIn profile
+
+### **Structure**
+
+The webpage is built with a single main page for Introduction, Services and Expertise as main contents, to allow to scroll through, but it has also has a navigation bar in the header, to be able also to jump to each section. 
+
+Additionally the website has a separate contact form, to allow easy contact via email, mobile and or LinkedIn, which is separated from the main page/ contents. 
+
+After the introduction, I have chosen to start with the Services section, due to the fact, that it would be of key interest for users. 
+
+Thereafter follows a summary of my education and expertise, which is important for users to see, because it is the basis, on which I am offering my services.
+
+I chose the following order for the information 'Home/introduction> Services> Expertise > as I felt this would allow the information to be digested in the best way. Finally the contact form is separate, because it only serves the purpose of contacting me, which is separate from the rest of the main page/contents
+
+### **Surfaces**
+
+The colours and pictures:
+I have chosen a mixture of different light blue and black background colours to give an elegant, orderly and easily readable impression with high contrast options.
+Scientific/Clinical pictures are mostly light blue, due to the nature of DNA/RNA samples, serving well for the introduction, making clear, that this is a scientific/medical company. This continues in the blue colour scheme for the services offered in pale blue (rgb(150, 193, 242))
+The black background of the header, expertise section sets a nice contrast to the blue colours in the introduction and services sections. 
+I used Google fonts 'EB Garamond', serif;' due to its simple and elegant design
+![] (docs/images/Google fonts selection EB Garamont.png)
+
+
