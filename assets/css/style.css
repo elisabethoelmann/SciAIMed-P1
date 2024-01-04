@@ -121,7 +121,7 @@ h2 {
   margin-bottom: 20px;
   margin-left: 25px;
 }
-/* Services section  according */
+/* Services section */
 #Services {
     background-color: rgb(150, 193, 242);
     width: 100%;
@@ -131,7 +131,6 @@ h2 {
   justify-content:space-around;
   align-items:center;
   width: 100%;
-  
 }
 .development-left {
   font-size: 20px;
@@ -139,7 +138,6 @@ h2 {
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 50px;
-  border: 2px solid blueviolet;
   }
 
 .clinical-right {
@@ -148,7 +146,6 @@ h2 {
   margin-top:50px;
   margin-bottom: 20px;
   margin-left: 50px;
-  border: 2px solid blueviolet;
 }
 
 
@@ -324,50 +321,7 @@ input[type=submit]:hover {
 }
 
 
-/* Add responsiveness for Home page with smaller letters for screens less than 920 pixels */
-@media screen and (max-width: 920px) {
-    .title h1 {
-     font-size:30px;
-    }
-   }
-   
-   /* Add responsiveness  for navbar from W3school- will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-   @media screen and (max-width: 500px) {
-   .navbar a {
-     float: none;
-     display: block;
-     padding: 3px;
-     margin-bottom: 5px;
-     margin-right: 10px;}
-     
-     header { 
-     min-height: 120px;}
-   }
 
-   /* Responsive layout - for Services, Expertise and Footer  on screens that are smaller than 600 px */
-@media screen and (max-width: 600px) {
-  .development-left, .clinical-right {
-    width: 100%;
-    font-size: 17px;
-    margin-left: 22px;}
-
-  .left-block, .right-block {
-    width: 100%;
-  }
-  #Services {
-    display:block;
-  }
-  #Expertise {
-    display: block;}
-  
-  #Impressum {
-    margin-top: 2px;
-  }
-  
-  .impressumh5 {
-    margin-top: 0%;
-  }
-}
 
 /* Footer */
 footer {background-color:#000000;
@@ -388,4 +342,50 @@ footer {background-color:#000000;
   text-color: rgb(159, 157, 157);
   font-weight: 100;
   margin-top: 50px;
+}
+
+/* Add responsiveness for Home page with smaller letters for screens less than 920 pixels */
+@media screen and (max-width: 920px) {
+  .title h1 {
+   font-size:30px;
+  }
+ }
+ 
+ /* Add responsiveness  for navbar from W3school- will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+ @media screen and (max-width: 500px) {
+ .navbar a {
+   float: none;
+   display: block;
+   padding: 3px;
+   margin-bottom: 5px;
+   margin-right: 10px;}
+   
+   header { 
+   min-height: 120px;}
+ }
+
+ /* Responsive layout - for Services, Expertise and Footer  on screens that are smaller than 600 px */
+@media screen and (max-width: 600px) {
+.development-left, .clinical-right {
+width: 100%;
+font-size: 17px;
+margin-left: 0;
+padding: 20px}
+
+  .container-list {
+    display:block;
+  }
+
+.left-block, .right-block {
+  width: 100%;
+}
+#Expertise {
+  display: block;}
+
+#Impressum {
+  margin-top: 2px;
+}
+.impressumh5 {
+  margin-top: 0%;
+}
 }
