@@ -104,7 +104,24 @@ The tables have been created with help from W3school: (source: https://www.w3sch
 
 ### **Contact form**
 The contact form will allow the user to get into contact with me. 
-The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
+The form uses 3 div elements, 2 for my email and mobile phone information respectively and 1 container for the contact-form, where the user can enter and submit his email, including  a text message. This contact form was created with help from W3schools: (source: https://www.w3schools.com/howto/howto_css_contact_form.asp)
+
+### **Technologies used**
+
+I have used several technologies that have enabled this design to work:
+
+•	HTML - Used as the basic building block for the project and to structure the content.
+•	CSS - Used to style all the web content across the project.
+•	Google Fonts - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
+•	Font Awesome - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
+•	Google Developer Tools - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+•	GitHub - Used to store code for the project after being pushed.
+•	Git - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+•	Gitpod - Used as the development environment.
+•	W3C Markup Validation Service - Used to validate all HTML code written and used in this webpage.
+•	W3C CSS Validation Service- Used to validate all CSS code written and used in this webpage.
+
+
 
 
 
