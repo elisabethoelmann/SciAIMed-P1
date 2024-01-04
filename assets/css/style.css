@@ -348,8 +348,8 @@ input[type=submit]:hover {
 @media screen and (max-width: 600px) {
   .development-left, .clinical-right {
     width: 100%;
-  font-size: 15px;
-margin-left: 25px;}
+  font-size: 17px;
+margin-left: 22px;}
   .left-block, .right-block {
     width: 100%;
   }
