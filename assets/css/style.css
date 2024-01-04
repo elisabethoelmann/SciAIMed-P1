@@ -344,12 +344,13 @@ input[type=submit]:hover {
      min-height: 120px;}
    }
 
-   /* Responsive layout - makes the two table columns stack on top of each other instead of next to each other on screens that are smaller than 600 px */
+   /* Responsive layout - for Services, Expertise and Footer  on screens that are smaller than 600 px */
 @media screen and (max-width: 600px) {
   .development-left, .clinical-right {
     width: 100%;
-  font-size: 17px;
-margin-left: 22px;}
+    font-size: 17px;
+    margin-left: 22px;}
+
   .left-block, .right-block {
     width: 100%;
   }
@@ -358,6 +359,14 @@ margin-left: 22px;}
   }
   #Expertise {
     display: block;}
+  
+  #Impressum {
+    margin-top: 2px;
+  }
+  
+  .impressumh5 {
+    margin-top: 0%;
+  }
 }
 
 /* Footer */
@@ -368,13 +377,15 @@ footer {background-color:#000000;
   padding: 10px 0;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 20px;
 }
-#Impressum i {
+.LIlabel{
   font-size: 160%;
   padding: 5%;
-  color:white;
+  background-color:white;
 }
 .impressumh5 {
   text-color: rgb(159, 157, 157);
   font-weight: 100;
+  margin-top: 50px;
 }
