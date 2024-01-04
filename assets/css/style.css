@@ -277,6 +277,9 @@ tr:nth-child(even) {
   flex:1;
   min-width: 300px;
 }
+#subject {
+  height: 200px;
+}
 
  /*added the contact form from We3 schools */
 
