@@ -78,11 +78,6 @@ header {
     background-color: #000000;
   }
   
-  /* Current/active navbar link */
-  .active {
-    background-color: #569dee65;
-  }
-  
 
 /* Main */
 main {
