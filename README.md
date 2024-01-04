@@ -88,6 +88,23 @@ The navbar was created with help from W3 schools: (source: https://www.w3schools
 However, for a more elegant design, I decided to delete the icons (fontawsome), but used the code.
 
 ### **The introduction section**
-This section outlines the general purpose of the consultancy company with a title (h1 element) describing the general purpose. The welcome section with the subtitle (h2 element) stating the company name heads up the more detailed description of the company’s purpose.
+This section outlines the general purpose of the consultancy company with a title (h1 element) describing the general purpose. The welcome section with the subtitle (h2 element), stating the company name, heads up the more detailed description of the company’s purpose.
 The background image shows a typical scientific background with a DNA structure and sample tubes, which are normally send for explorations and scientific experiments.
+
+### **Services**
+This section starts with an H2 heading and is then followed by an unordered list of tasks, which the company offers. The style of the unordered list has been created with flex box and the help of dev.to:https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b#:~:text=The%20most%20common%20way%20to,using%20inline%2Dblock%20css%20property.&text=The%20inline%2Dblock%20property%20on,like%20an%20inline%20element%20does.
+![] (docs/images/Flexbox method parralel lists Dev to.png)
+
+For these 2 parallel unordered lists, a media query has been added to stack them on top of each other, for screens smaller than 600 px.
+
+### **Expertise**
+This section includes the most information on the page, which I have ordered into 3 sections: 1 p-element with a summary of my expertise and 2 different chronological tables, each with a h2 title, one for education and one for my roles over the years.
+Both tables summarize my education and previous roles in chronological order
+The tables have been created with help from W3school: (source: https://www.w3schools.com/cssref/pr_tab_table-layout.php)
+
+### **Contact form**
+The contact form will allow the user to get into contact with me. 
+The form uses 3 elements, 2 text inputs and an email input. They are all required therefore all information is necessary to submit the form. The colour pallet used is the same across the site.
+
+
 
