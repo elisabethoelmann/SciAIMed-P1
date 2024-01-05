@@ -123,24 +123,78 @@ The tables have been created with help from W3school: [HTML tables](docs/images/
 
 ### **Contact form**
 The contact form will allow the user to get into contact with me. 
-The form uses 3 div elements, one for my email, one for my mobile phone number and one for the container of the contact-form, where the user can enter and submit his email, including  a text message. This contact form was created with help from W3schools: [How to create a contact Form with CSS W3Schools](docs/images/contactform_w3school.png)
+The form is created as a section without a title, as the page is selfexplaining. Within the section, 3 div elements are used, one for my email, one for my mobile phone number and one for the container of the input form, where the user can enter and submit his email, including  a text message. The input form was created with help from W3schools: [How to create a contact Form with CSS W3Schools](docs/images/contactform_w3school.png)
 
 ### **Technologies used**
 
 I have used several technologies that have enabled this design to work:
 
-* HTML - Used as the basic building block for the project and to structure the content.
-* CSS - Used to style all the web content across the project.
-* Google Fonts - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
-* Font Awesome - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
-* Google Developer Tools - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
-* GitHub - Used to store code for the project after being pushed.
-* Git - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
-* Gitpod - Used as the development environment.
-* W3C Markup Validation Service - Used to validate all HTML code written and used in this webpage.
-* W3C CSS Validation Service- Used to validate all CSS code written and used in this webpage.
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - Used as the basic building block for the project and to structure the content.
+- [CSS](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
+    - Used to style all the web content across the project.
+- [Google Fonts](https://fonts.google.com/)
+    - Used to obtain the fonts linked in the header, fonts used were Playfair and Cookie
+- [Font Awesome](https://fontawesome.com/)
+    - Used to obtain the social media icons used in the footer and the icons in La Petite Review.
+- [Google Developer Tools](https://developers.google.com/web/tools/chrome-devtools)
+    - Used as a primary method of fixing spacing issues, finding bugs, and testing responsiveness across the project.
+- [GitHub](https://github.com/)
+    - Used to store code for the project after being pushed.
+- [Git](https://git-scm.com/)
+    - Used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+- [Gitpod](https://www.gitpod.io/)
+    - Used as the development environment.
+- [Favicon.io](https://favicon.io/)
+    - Used to create favicon's for my website
+- [W3C Markup Validation Service](https://validator.w3.org/) 
+    - Used to validate all HTML code written and used in this webpage.
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input)
+    - Used to validate all CSS code written and used in this webpage.
 
+### **HTML and CSS Validation**
 
+I validated my index.html, contact.html and style.css while working on them. Finally they were free of mistakes. however, the contact form validation shows an error, which I decided to neglect: it says, that a section needs to have a title, but the contact form looks fine as it is and a title would not look right on this form.
 
+![](docs/images/wcmarkup_validation_indexhtml.png)
+![](docs/images/wcmarkup_validation_css.png)
+![](docs/images/wcmarkup_validation_indexhtml.png)
 
+## Deployment
 
+I deployed this website by using GitPages and following the below steps:
+
+*GitHub pages deployment* 
+
+1. Log in to GitHub
+2. In my Repository section, select the project, SciAiMed-P1, that I wanted wanted to deploy
+3. In the menu located at the top of this section, click 'Settings'
+4. Select 'Pages' on the left-hand menu - this is around halfway down
+5. In the source section, select branch 'main' and save
+6. The page is then given a site URL:
+
+![](https://elisabethoelmann.github.io/SciAIMed-P1/)
+
+## Credits
+
+I have used a number of resources to produce this website, where codes have been used from another source:
+
+The following websites/articles were used:
+
+- [the celtic knot icon](https://www.iconarchive.com/show/celtic-knot-icons-by-shiftercat/blueknot-2-icon.html?utm_content=cmp-true)
+
+-[color picker](https://www.w3schools.com/colors/colors_picker.asp)
+
+-[responsive navbar](https://www.w3schools.com/howto/howto_css_navbar_icon.asp)
+
+-[3 ways to display 2 divs side by side-Dev community](https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b#:~:text=The%20most%20common%20way%20to,using%20inline%2Dblock%20css%20property.&text=The%20inline%2Dblock%20property%20on,like%20an%20inline%20element%20does.)
+
+-[W3School tables](https://www.w3schools.com/html/html_tables.asp)
+
+-[How to create a contact form](https://www.w3schools.com/howto/howto_css_contact_form.asp)
+
+-[gitpod tips and tricks](https://github.com/gitpod-io/gitpod-docs/blob/master/src/52_Tips_and_Tricks.md#format-document)
+
+## Acknowledgements
+
+I like to thank the CodeInstitute tutors for frequently being available for questions and help with IDEs and especially my mentor Harry Dhillon for all advise during the finalization of my project.
