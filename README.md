@@ -172,8 +172,7 @@ I deployed this website by using GitPages and following the below steps:
 4. Select 'Pages' on the left-hand menu - this is around halfway down
 5. In the source section, select branch 'main' and save
 6. The page is then given a site URL:
-
-![](https://elisabethoelmann.github.io/SciAIMed-P1/)
+[Github deployed page](https://elisabethoelmann.github.io/SciAIMed-P1/index.html#home)
 
 ## Credits
 
@@ -181,7 +180,7 @@ I have used a number of resources to produce this website, where codes have been
 
 The following websites/articles were used:
 
-- [the celtic knot icon](https://www.iconarchive.com/show/celtic-knot-icons-by-shiftercat/blueknot-2-icon.html?utm_content=cmp-true)
+-[the celtic knot icon](https://www.iconarchive.com/show/celtic-knot-icons-by-shiftercat/blueknot-2-icon.html?utm_content=cmp-true)
 
 -[color picker](https://www.w3schools.com/colors/colors_picker.asp)
 
