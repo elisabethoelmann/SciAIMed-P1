@@ -41,7 +41,7 @@ h3 {
   h5 {
     font-family: 'EB Garamond', serif;
     color: white;
-    font-weight: 40%;
+    font-weight: 200;
   }
 
 /* Header */
@@ -240,7 +240,6 @@ table.roles {
 table.roles td {
   min-width: 100px;
   min-height: 200px;
-  text-size: 70px;
 }
 tr:nth-child(even) {
   background-color: #f2f2f2;
@@ -338,8 +337,6 @@ footer {background-color:#000000;
   margin-bottom: 10px;
 }
 .impressumh5 {
-  text-color: rgb(159, 157, 157);
-  font-weight: 100;
   margin-top: 50px;
 }
 
@@ -385,7 +382,7 @@ padding: 20px}
   margin-top: 2px;
 }
 .impressumh5 {
-  margin-top: 0%;
+  margin-top: 10px;
 }
 .LIlabel {
   margin-right: 5px;
