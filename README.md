@@ -7,23 +7,23 @@ This website is made up of the following sections:
 
 1.	Home/Welcome/Introduction section with the header, logo and the navbar on the top
 
-![](homepage_introduction.png)
+![](docs/images/homepage_introduction.png)
 
 2.	Services
 
-![](services.png)
+![](docs/images/services.png)
 
 3.	Expertise 
 
-![](expertise.png)
+![](docs/images/expertise.png)
 
 4.      Footer, which also contains a link to my LinkedIn profile
 
-![](footer.png)
+![](docs/images/footer.png)
 
 5.	A contact form, which people can fill in to send me an email. This contact form also contains my email address and mobile phone number, which at this moment in time is an invented number, as a business number does not yet exist.
 
-![](contactform.png)
+![](docs/images/contactform.png)
 
 The business goals for this website are:
 
@@ -41,7 +41,7 @@ Data analysis is also mentioned here, as it is one of the key pillars for sucess
 
 3. The Expertise section shows my complete education until now (except the full stack developer diploma), which serves as basis for my services, that I intend to offer.
 
-4.	The contact form is a simple from page for contacting me via email, mobile phone and LinkedIn.
+4. The contact form is a simple from page for contacting me via email, mobile phone and LinkedIn.
 
 ## UX
 ---
