@@ -196,4 +196,4 @@ The following websites/articles were used:
 
 ## Acknowledgements
 
-I like to thank my friend Ioannis for helpful discussions on how to improve styling of parallele tables and especially also the CodeInstitute tutors for frequently being available for questions and help with IDEs. Big thanks especially also goes to my mentor Harry Dhillon for all advise during the finalization of my project. 
+I like to thank my friend Ioannis Papadopoulos for helpful discussions on how to improve styling of parallele tables and especially also the CodeInstitute tutors for frequently being available for questions and help with IDEs. Big thanks especially also goes to my mentor Harry Dhillon for all advise during the finalization of my project. 
