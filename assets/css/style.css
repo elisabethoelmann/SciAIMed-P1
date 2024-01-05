@@ -327,6 +327,7 @@ input[type=submit]:hover {
   padding: 10px;
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 /* Footer */
