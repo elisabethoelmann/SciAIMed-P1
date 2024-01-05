@@ -178,7 +178,7 @@ h2 {
 .rolestitle h2 {
   color: #04948aed;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 41%;
   margin-bottom: 2.5%;
 }
 
@@ -255,7 +255,8 @@ table.education td {
 table.roles {
   table-layout: auto;
   width: 100%;
-  margin-top: 10%;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 table.roles td {
