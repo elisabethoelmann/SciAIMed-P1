@@ -307,7 +307,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #048caa;
+  background-color: #025e73;
 }
 
 /* Add a background color and some padding around the form */
@@ -335,6 +335,7 @@ footer {background-color:#000000;
   font-size: 160%;
   padding: 2%;
   background-color:white;
+  margin-bottom: 10px;
 }
 .impressumh5 {
   text-color: rgb(159, 157, 157);
@@ -385,5 +386,8 @@ padding: 20px}
 }
 .impressumh5 {
   margin-top: 0%;
+}
+.LIlabel {
+  margin-right: 5px;
 }
 }

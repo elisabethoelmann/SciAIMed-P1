@@ -1,14 +1,29 @@
 # SciAIMed-P1
 [Visit my webpage here](https://elisabethoelmann.github.io/SciAIMed-P1/index.html#home)
 
-The  Website is intended for setting up my own medical consultancy business. The intention is to include my coding expertise latest, when I have finished my CodeInstitute Course in Diploma in Full Stack Software Development (Common Curriculum).
+The  Website is intended for setting up my own medical consultancy business for small biotech companies and larger pharmaceutical companies. The main tasks of such a consultancy business is drug development, focused primarily on Oncology drug development from target identification until registration trials and final approval by health authorities. The intention is to include my coding expertise into this website in much more detail latest, when I have finished my CodeInstitute Course in Diploma in Full Stack Software Development (Common Curriculum). Currently this website mainly focuses on my medical education and the resulting services, I can offer at this moment in time.
 
 This website is made up of the following sections:
 
-1.	Home/Welcome/Introduction
+1.	Home/Welcome/Introduction section with the header, logo and the navbar on the top
+
+![](homepage_introduction.png)
+
 2.	Services
+
+![](services.png)
+
 3.	Expertise 
-4.	A contact form, which people can fill in to send me an email. This contact form should also contain my mobile phone number
+
+![](expertise.png)
+
+4.      Footer, which also contains a link to my LinkedIn profile
+
+![](footer.png)
+
+5.	A contact form, which people can fill in to send me an email. This contact form also contains my email address and mobile phone number, which at this moment in time is an invented number, as a business number does not yet exist.
+
+![](contactform.png)
 
 The business goals for this website are:
 
@@ -19,9 +34,13 @@ The business goals for this website are:
 The user goals for this website are:
 
 1. For first time users (mainly people in the Biotech- and Pharmaceutical Industry), who are looking for help with their projects and therefore search for medical consultancy companies, I want to give an easy understandable overview of the services I am offering, as well as my expertise to show, that I am able to conduct these services.
-2. The services section is a summary of activities, which are required across the industry to sucessfully accomplish different parts of develpment projects.
-Data analysis is also mentioned here, as it is one of the key pillars for sucessful drug development in Medicine. AI has been incorporated already into the title, as it is a hot topic right now in Medicine and my intention is the be educated enough to further define specific tasks, when I have finished my CI course. A big lack for Medics is a thorough understanding of AI and data analysis and the requirements and methods behind, which is one of the reasons, for me why I have signed up to the full stack software developer course.
-3. The Expertise section shows my complete education (except the full stack developer diploma), which serves as basis for my services, that I intend to offer.
+
+2. The services section is a summary of activities, which are required across the industry to sucessfully accomplish different parts of drug develpment projects.
+
+Data analysis is also mentioned here, as it is one of the key pillars for sucessful drug development in Medicine. AI has been incorporated already into the title, as it is a hot topic right now in Medicine and my intention is to be educated enough to further define specific tasks, when I have finished my CI course. A big lack for Medics is a thorough understanding of AI and data analysis and the requirements and methods behind, which is one of the reasons, for me why I have signed up to the full stack software developer course.
+
+3. The Expertise section shows my complete education until now (except the full stack developer diploma), which serves as basis for my services, that I intend to offer.
+
 4.	The contact form is a simple from page for contacting me via email, mobile phone and LinkedIn.
 
 ## UX
@@ -33,7 +52,7 @@ Considering the core UX principles I first started to think about the strategy f
 The SciAiMed target users are:
 
 •	People > 18 years old
-•	Biotech and Pharmaceutical Industry  and Clinical Research employers
+•	Biotech and Pharmaceutical Industry  and Clinical Research employees and employers
 •	People interested in medical data anlysis
 
 What these users would be looking for:
@@ -55,7 +74,7 @@ In order to achieve the desired user & business goals, the following features ar
 
 ### **Structure**
 
-The webpage is built with a single main page for Introduction, Services and Expertise as main contents, to allow to scroll through, but it has also has a navigation bar in the header, to be able also to jump to each section. 
+The webpage is built with a single main page for Introduction, Services and Expertise as main contents, to allow to scroll through, but it has also a navigation bar in the header, to be able also to jump to each section. 
 
 Additionally the website has a separate contact form, to allow easy contact via email, mobile and or LinkedIn, which is separated from the main page/ contents. 
 
@@ -72,7 +91,7 @@ I have chosen a mixture of different light blue and black background colours to 
 Scientific/Clinical pictures are mostly light blue, due to the nature of DNA/RNA samples, serving well for the introduction, making clear, that this is a scientific/medical company. This continues in the blue colour scheme for the services offered in pale blue (rgb(150, 193, 242))
 The black background of the header, expertise section sets a nice contrast to the blue colours in the introduction and services sections. 
 I used Google fonts 'EB Garamond', serif;' due to its simple and elegant design
-![] (docs/images/Google fonts selection EB Garamont.png)
+![] (docs/images/google_fonts_selection_eb_garamont.png)
 
 ### **Features**
 This is a fully responsive website that was designed to be also approriately displayed on mobile phones, although clients likely would mostly use large screens for a search of a Clinical Consultancy company and use mobile phones only during travel times.
