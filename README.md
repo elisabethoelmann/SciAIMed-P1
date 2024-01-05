@@ -13,7 +13,7 @@ This website is made up of the following sections:
 
 ![](docs/images/services.png)
 
-3.	Expertise 
+3.      Expertise 
 
 ![](docs/images/expertise.png)
 
@@ -21,7 +21,7 @@ This website is made up of the following sections:
 
 ![](docs/images/footer.png)
 
-5.	A contact form, which people can fill in to send me an email. This contact form also contains my email address and mobile phone number, which at this moment in time is an invented number, as a business number does not yet exist.
+5.      A contact form, which people can fill in to send me an email. This contact form also contains my email address and mobile phone number, which at this moment in time is an invented number, as a business number does not yet exist.
 
 ![](docs/images/contactform.png)
 
@@ -35,7 +35,7 @@ The user goals for this website are:
 
 1. For first time users (mainly people in the Biotech- and Pharmaceutical Industry), who are looking for help with their projects and therefore search for medical consultancy companies, I want to give an easy understandable overview of the services I am offering, as well as my expertise to show, that I am able to conduct these services.
 
-2. The services section is a summary of activities, which are required across the industry to sucessfully accomplish different parts of drug develpment projects.
+2. The services section is a summary of activities, which are required across the industry to sucessfully accomplish different parts   of drug develpment projects.
 
 Data analysis is also mentioned here, as it is one of the key pillars for sucessful drug development in Medicine. AI has been incorporated already into the title, as it is a hot topic right now in Medicine and my intention is to be educated enough to further define specific tasks, when I have finished my CI course. A big lack for Medics is a thorough understanding of AI and data analysis and the requirements and methods behind, which is one of the reasons, for me why I have signed up to the full stack software developer course.
 
@@ -51,14 +51,14 @@ Considering the core UX principles I first started to think about the strategy f
 
 The SciAiMed target users are:
 
-•	People > 18 years old
-•	Biotech and Pharmaceutical Industry  and Clinical Research employees and employers
-•	People interested in medical data anlysis
+* People > 18 years old
+* Biotech and Pharmaceutical Industry  and Clinical Research employees and employers
+* People interested in medical data anlysis
 
 What these users would be looking for:
 
-•	Clear, concise, easy-to-find information about services
-•	Clear and concise easy to read expertise section, on which the services are based
+* Clear, concise, easy-to-find information about services
+* Clear and concise easy to read expertise section, on which the services are based
 
 This website will offer these options, also allowing for intuitive navigation and comfortability of use. An effort was taken to not provide an overwhelming amount of information at first glance which would look less professional.
 Due to ease of use, it is assumed that users will be also be viewing the site on their mobile phones and therefore creating a responsive design was important.
@@ -66,11 +66,11 @@ Due to ease of use, it is assumed that users will be also be viewing the site on
 ### **Scope**
 In order to achieve the desired user & business goals, the following features are included in this release:
 
-• Header and menu bar, to navigate to various sections of the page
-• Introduction section to outline the overall goal of the page
-• Services offered
-• Expertise/education section
-• Contact form with options to send an email, contact me via mbile and a link to my LinkedIn profile
+* Header and menu bar, to navigate to various sections of the page or to scroll down
+* Introduction section to outline the overall goal of the page
+* Services offered
+* Expertise/education section
+* Contact form with options to send an email, contact me via mbile and a link to my LinkedIn profile
 
 ### **Structure**
 
