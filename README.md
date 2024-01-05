@@ -1,7 +1,7 @@
 # SciAIMed-P1
 [Visit my webpage here](https://elisabethoelmann.github.io/SciAIMed-P1/index.html#home)
 
-The  Website is intended for setting up my own medical consultancy business for small biotech companies and larger pharmaceutical companies. The main tasks of such a consultancy business is drug development, focused primarily on Oncology drug development from target identification until registration trials and final approval by health authorities. The intention is to include my coding expertise into this website in much more detail latest, when I have finished my CodeInstitute Course in Diploma in Full Stack Software Development (Common Curriculum). Currently this website mainly focuses on my medical education and the resulting services, I can offer at this moment in time.
+The Website is intended for setting up my own medical consultancy business for small biotech companies and larger pharmaceutical companies. The main task of such a consultancy business is drug development, focused primarily on Oncology drug development from target identification until registration trials and final approval by health authorities. The intention is to include my coding expertise into this website in much more detail latest, when I have finished my CodeInstitute Course in Diploma in Full Stack Software Development (Common Curriculum). Currently this website mainly focuses on my medical education and the resulting services, I can offer at this moment in time.
 
 This website is made up of the following sections:
 
@@ -35,9 +35,9 @@ The user goals for this website are:
 
 1. For first time users (mainly people in the Biotech- and Pharmaceutical Industry), who are looking for help with their projects and therefore search for medical consultancy companies, I want to give an easy understandable overview of the services I am offering, as well as my expertise to show, that I am able to conduct these services.
 
-2. The services section is a summary of activities, which are required across the industry to sucessfully accomplish different parts   of drug develpment projects.
+2. The services section is a summary of activities, which are required across the industry to successfully accomplish different parts of drug development projects.
 
-Data analysis is also mentioned here, as it is one of the key pillars for sucessful drug development in Medicine. AI has been incorporated already into the title, as it is a hot topic right now in Medicine and my intention is to be educated enough to further define specific tasks, when I have finished my CI course. A big lack for Medics is a thorough understanding of AI and data analysis and the requirements and methods behind, which is one of the reasons, for me why I have signed up to the full stack software developer course.
+Data analysis is also mentioned here, as it is one of the key pillars for successful drug development in Medicine. AI has been incorporated already into the title, as it is a hot topic right now in Medicine and my intention is to be educated enough to further define specific tasks, when I have finished my CI course. A big lack for Medics is a thorough understanding of AI and data analysis and the requirements and methods behind, which is one of the reasons, for me why I have signed up to the full stack software developer course.
 
 3. The Expertise section shows my complete education until now (except the full stack developer diploma), which serves as basis for my services, that I intend to offer.
 
@@ -52,8 +52,8 @@ Considering the core UX principles I first started to think about the strategy f
 The SciAiMed target users are:
 
 * People > 18 years old
-* Biotech and Pharmaceutical Industry  and Clinical Research employees and employers
-* People interested in medical data anlysis
+* Biotech and Pharmaceutical Industry and Clinical Research employees and employers
+* People interested in medical data analysis
 
 What these users would be looking for:
 
@@ -70,19 +70,19 @@ In order to achieve the desired user & business goals, the following features ar
 * Introduction section to outline the overall goal of the page
 * Services offered
 * Expertise/education section
-* Contact form with options to send an email, contact me via mbile and a link to my LinkedIn profile
+* Contact form with options to send an email, contact me via mobile and a link to my LinkedIn profile
 
 ### **Structure**
 
 The webpage is built with a single main page for introduction, services and expertise as main contents, to allow to scroll through, but it has also a navigation bar in the header, to be able also to jump to each section. 
 
-Additionally the website has a separate contact form, to allow easy contact via email, mobile and or LinkedIn, which is separated from the main page/ contents. 
+Additionally, the website has a separate contact form, to allow easy contact via email, mobile and or LinkedIn, which is separated from the main page/ contents. 
 
 After the introduction, I have chosen to start with the Services section, due to the fact, that it would be of key interest for users. 
 
 Thereafter follows a summary of my education and expertise, which is important for users to see, because it is the basis, on which I am offering my services.
 
-I chose the following order for the information 'Home/introduction> Services> Expertise, as I felt this would allow the information to be digested in the best way. Finally the contact form is separate, because it only serves the purpose of contacting me, which is separate from the rest of the main page/contents
+I chose the following order for the information 'Home/introduction> Services> Expertise, as I felt this would allow the information to be digested in the best way. Finally, the contact form is separate, because it only serves the purpose of contacting me, which is separate from the rest of the main page/contents
 
 ### **Surfaces**
 
@@ -94,9 +94,9 @@ I used Google fonts 'EB Garamond', serif;' due to its simple and elegant design
 ![](docs/images/google_fonts_selection_eb_garamont.png)
 
 ### **Features**
-This is a fully responsive website that was designed to be also approriately displayed on mobile phones, although clients likely would mostly use large screens for a search of a Clinical Consultancy company and use mobile phones only during travel times.
+This is a fully responsive website that was designed to be also appropriately displayed on mobile phones, although clients likely would mostly use large screens for a search of a Clinical Consultancy company and use mobile phones only during travel times.
 The page is divided into the four sections listed in the navbar. 
-The font used for the whole page is EB Garamont. No more fonts have been chosen,  due to the fact, that this is a scientific consultancy page, where users do not expect fancy design features, which would distract from the contents.
+The font used for the whole page is EB Garamont. No more fonts have been chosen, due to the fact, that this is a scientific consultancy page, where users do not expect fancy design features, which would distract from the contents.
 If the background colour is black, the text is chosen to be either white for the header and footer or white smoke for the expertise section. The colour of the subtitles of the Expertise section are chosen to be blue-green (#04948aed) to set a contrast to the rest of the text sections.
 
 ### **Title and Logo**
@@ -117,13 +117,13 @@ This section starts with an H2 heading and is then followed by an unordered list
 For these 2 parallel unordered lists, a media query has been added to stack them on top of each other, for screens smaller than 600 px.
 
 ### **Expertise**
-This section includes the most information on the page, which I have ordered in general into 2 parralel blocks, which contain 3 sections with 3 titles: the left-block contains a 1 p-element with a summary of my expertise with an h2 title "Expertise" and 1 table which summarizes my education with the title "Education". The right block contains a larger table containing my roles over the years with a h2 title "Roles".
+This section includes the most information on the page, which I have ordered in general into 2 parallel blocks, which contain 3 sections with 3 titles: the left-block contains a 1 p-element with a summary of my expertise with an h2 title "Expertise" and 1 table which summarizes my education with the title "Education". The right block contains a larger table containing my roles over the years with a h2 title "Roles".
 Both tables summarize my education and previous roles in chronological order, the education table in ascending order and the roles table in descending order according to importance.
 The tables have been created with help from W3school: [HTML tables](docs/images/table_html.png)
 
 ### **Contact form**
 The contact form will allow the user to get into contact with me. 
-The form is created as a section without a title, as the page is selfexplaining. Within the section, 3 div elements are used, one for my email, one for my mobile phone number and one for the container of the input form, where the user can enter and submit his email, including  a text message. The input form was created with help from W3schools: [How to create a contact Form with CSS W3Schools](docs/images/contactform_w3school.png)
+The form is created as a section without a title, as the page is self explaining. Within the section, 3 div elements are used, one for my email, one for my mobile phone number and one for the container of the input form, where the user can enter and submit his email, including a text message. The input form was created with help from W3schools: [How to create a contact Form with CSS W3Schools](docs/images/contactform_w3school.png)
 
 ### **Technologies used**
 
@@ -154,7 +154,7 @@ I have used several technologies that have enabled this design to work:
 
 ### **HTML and CSS Validation**
 
-I validated my index.html, contact.html and style.css while working on them. Finally they were free of mistakes. however, the contact form validation shows an error, which I decided to neglect: it says, that a section needs to have a title, but the contact form looks fine as it is and a title would not look right on this form.
+I validated my index.html, contact.html and style.css while working on them. Finally, they were free of mistakes. However, the contact form validation shows an error, which I decided to neglect: it says, that a section needs to have a title, but the contact form looks fine as it is and a title would not look right on this form.
 
 ![](docs/images/wcmarkup_validation_indexhtml.png)
 ![](docs/images/wcmarkup_validation_css.png)
@@ -167,7 +167,7 @@ I deployed this website by using GitPages and following the below steps:
 *GitHub pages deployment* 
 
 1. Log in to GitHub
-2. In my Repository section, select the project, SciAiMed-P1, that I wanted wanted to deploy
+2. In my Repository section, select the project, SciAiMed-P1, that I wanted to deploy
 3. In the menu located at the top of this section, click 'Settings'
 4. Select 'Pages' on the left-hand menu - this is around halfway down
 5. In the source section, select branch 'main' and save
