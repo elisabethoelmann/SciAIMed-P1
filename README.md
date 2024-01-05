@@ -74,7 +74,7 @@ In order to achieve the desired user & business goals, the following features ar
 
 ### **Structure**
 
-The webpage is built with a single main page for Introduction, Services and Expertise as main contents, to allow to scroll through, but it has also a navigation bar in the header, to be able also to jump to each section. 
+The webpage is built with a single main page for introduction, services and expertise as main contents, to allow to scroll through, but it has also a navigation bar in the header, to be able also to jump to each section. 
 
 Additionally the website has a separate contact form, to allow easy contact via email, mobile and or LinkedIn, which is separated from the main page/ contents. 
 
@@ -82,7 +82,7 @@ After the introduction, I have chosen to start with the Services section, due to
 
 Thereafter follows a summary of my education and expertise, which is important for users to see, because it is the basis, on which I am offering my services.
 
-I chose the following order for the information 'Home/introduction> Services> Expertise > as I felt this would allow the information to be digested in the best way. Finally the contact form is separate, because it only serves the purpose of contacting me, which is separate from the rest of the main page/contents
+I chose the following order for the information 'Home/introduction> Services> Expertise, as I felt this would allow the information to be digested in the best way. Finally the contact form is separate, because it only serves the purpose of contacting me, which is separate from the rest of the main page/contents
 
 ### **Surfaces**
 
@@ -91,7 +91,7 @@ I have chosen a mixture of different light blue and black background colours to 
 Scientific/Clinical pictures are mostly light blue, due to the nature of DNA/RNA samples, serving well for the introduction, making clear, that this is a scientific/medical company. This continues in the blue colour scheme for the services offered in pale blue (rgb(150, 193, 242))
 The black background of the header, expertise section sets a nice contrast to the blue colours in the introduction and services sections. 
 I used Google fonts 'EB Garamond', serif;' due to its simple and elegant design
-![] (docs/images/google_fonts_selection_eb_garamont.png)
+![](docs/images/google_fonts_selection_eb_garamont.png)
 
 ### **Features**
 This is a fully responsive website that was designed to be also approriately displayed on mobile phones, although clients likely would mostly use large screens for a search of a Clinical Consultancy company and use mobile phones only during travel times.
@@ -100,26 +100,26 @@ The font used for the whole page is EB Garamont. No more fonts have been chosen,
 If the background colour is black, the text is chosen to be either white for the header and footer or white smoke for the expertise section. The colour of the subtitles of the Expertise section are chosen to be blue-green (#04948aed) to set a contrast to the rest of the text sections.
 
 ### **Title and Logo**
-The title is designed with my company name: SciAiMed Ltd. and the celtic salomon’s knot, which is one of the most ancient symbols for the connection between humans and the divine and in recent times in science is used to symbolise atoms, where electrons are orbiting around the nucleus. It appeared therefore to me to be a nice choice. (source: https://en.wikipedia.org/wiki/Solomon%27s_knot)
+The title is designed with my company name: SciAiMed Ltd. and the celtic salomon’s knot, which is one of the most ancient symbols for the connection between humans and the divine and in recent times in science is used to symbolise atoms, where electrons are orbiting around the nucleus. It appeared therefore to me to be a nice choice. [wikipedia information about Salomon's knot](https://en.wikipedia.org/wiki/Solomon%27s_knot)
 
 ### **Navbar**
-The navbar was created with help from W3 schools: (source: https://www.w3schools.com/howto/howto_css_navbar_icon.asp)
+The navbar was created with help from W3 schools: [W3Schoollink to create the navbar](https://www.w3schools.com/howto/howto_css_navbar_icon.asp)
 However, for a more elegant design, I decided to delete the icons (fontawsome), but used the code.
 
 ### **The introduction section**
 This section outlines the general purpose of the consultancy company with a title (h1 element) describing the general purpose. The welcome section with the subtitle (h2 element), stating the company name, heads up the more detailed description of the company’s purpose.
-The background image shows a typical scientific background with a DNA structure and sample tubes, which are normally send for explorations and scientific experiments.
+The background image shows a typical scientific background with a DNA structure and sample tubes, which are normally used for clinical investigations and scientific experiments.
 
 ### **Services**
-This section starts with an H2 heading and is then followed by an unordered list of tasks, which the company offers. The style of the unordered list has been created with flex box and the help of dev.to:https://dev.to/dawnind/3-ways-to-display-two-divs-side-by-side-3d8b#:~:text=The%20most%20common%20way%20to,using%20inline%2Dblock%20css%20property.&text=The%20inline%2Dblock%20property%20on,like%20an%20inline%20element%20does.
-![] (docs/images/Flexbox method parralel lists Dev to.png)
+This section starts with an H2 heading and is then followed by an unordered list of tasks, which the company offers. The style of the unordered list has been created with flex box and the help of Dev community:
+![3 ways how to display two divs side by side - Dev community](docs/images/flexboxmethod_parralel_lists_dev_to.png)
 
 For these 2 parallel unordered lists, a media query has been added to stack them on top of each other, for screens smaller than 600 px.
 
 ### **Expertise**
-This section includes the most information on the page, which I have ordered into 3 sections: 1 p-element with a summary of my expertise and 2 different chronological tables, each with a h2 title, one for education and one for my roles over the years.
-Both tables summarize my education and previous roles in chronological order
-The tables have been created with help from W3school: (source: https://www.w3schools.com/cssref/pr_tab_table-layout.php)
+This section includes the most information on the page, which I have ordered in general into 2 parralel blocks, which contain 3 sections with 3 titles: the left-block contains a 1 p-element with a summary of my expertise with an h2 title "Expertise" and 1 table which summarizes my education with the title "Education". The right block contains a larger table containing my roles over the years with a h2 title "Roles".
+Both tables summarize my education and previous roles in chronological order, the education table in ascending order and the roles table in descending order according to importance.
+The tables have been created with help from W3school: [HTML tables](docs/images/table_html.png)
 
 ### **Contact form**
 The contact form will allow the user to get into contact with me. 
