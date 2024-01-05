@@ -2,93 +2,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Lato:wght@300&family=Merriweather:ital@0;1&family=Oswald:wght@200;300;400;500;600;700&family=Space+Mono&family=Work+Sans:wght@400;500;800&display=swap');
 
 /*Asterisk wildcard selector to override default styles added by the browser*/
-* {padding: 0; 
-    margin: 0; 
-    box-sizing:border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #3a3a3a;
-    font-family:'EB Garamond', serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #3a3a3a;
+  font-family: 'EB Garamond', serif;
 }
 
 h1 {
   font-family: 'EB Garamond', serif;
   letter-spacing: 2px;
-  color:black;
+  color: black;
   font-size: 35px;
   width: 90%;
   padding: 40px 20px;
 }
-  /* Expertise titles */
-  h2 {
-    font-family: 'EB Garamond', serif;
-    color:#000000;
-    font-size: 25px;
-  }
+
+/* Expertise titles */
+h2 {
+  font-family: 'EB Garamond', serif;
+  color: #000000;
+  font-size: 25px;
+}
+
 /* SciAIMed logo description header*/
 h3 {
-    color:white;
-    font-size: 20px;
-    letter-spacing: 2px;
-    font-weight: normal;
-    padding-bottom: 10px;
-  }
-  h5 {
-    font-family: 'EB Garamond', serif;
-    color: white;
-    font-weight: 200;
-  }
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+/* Footer text */
+h5 {
+  font-family: 'EB Garamond', serif;
+  color: white;
+  font-weight: 200;
+}
 
 /* Header */
-/* Header background*/
+/* Header background */
 header {
-    background-color:black;
-    position: relative;
-    max-height: 20vh;
-  }
-  .celticknot {
-    margin-top: 1%;
-    margin-left: 5%;
-  }
-  /* Style the navigation menue with icons from W3 school*/
+  background-color: black;
+  position: relative;
+  max-height: 20vh;
+}
+
+.celticknot {
+  margin-top: 1%;
+  margin-left: 5%;
+}
+
+/* navigation menue */
 .navbar {
-    width: auto;
-    overflow: auto;
-    position: absolute;
-    bottom: 0%;
-    right:0%;
-  }
-  
-  /* Navbar links */
-  .navbar a {
-    float: left;
-    text-align: center;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-  }
-  /* Navbar links on mouse-over */
-  .navbar a:hover {
-    background-color: #000000;
-  }
-  
+  width: auto;
+  overflow: auto;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color: #02798b;
+}
 
 /* Main */
 main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-        flex: 1 0 auto;
-        margin-top: 0px;
-        background-color:lightblue;
-         /* Enable flex properties for child elements */
-         display: flex;
-         flex-direction: column;
+  background-color: lightblue;
+  /* Make main element take up any surplus space to push footer down */
+  flex: 1 0 auto;
+  margin-top: 0px;
+  background-color: lightblue;
+  /* Enable flex properties for child elements */
+  display: flex;
+  flex-direction: column;
 }
 
 /* Clinical Development Introduction section*/
@@ -96,79 +103,83 @@ main {
   width: 100%;
   background: url("../../assets/images/science.png") no-repeat center center/cover;
 }
- h1{
+
+h1 {
   width: 90%;
-  text-align:center;
-  }
+  text-align: center;
+}
 
 h2 {
   width: 90%;
   font-weight: bold;
-  text-align:center;
+  text-align: center;
 }
 
 .introduction {
   width: 80%;
   background-color: rgba(230, 244, 254, 0.6);
-  padding: 10px 10px; 
+  padding: 10px 10px;
   font-size: 20px;
   text-align: center;
   margin-bottom: 20px;
   margin-left: 25px;
 }
+
 /* Services section */
 #Services {
-    background-color: rgb(150, 193, 242);
-    width: 100%;
-  }
-.container-list {
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
+  background-color: rgb(150, 193, 242);
   width: 100%;
 }
+
+.container-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
 .development-left {
   font-size: 20px;
   flex: 1;
   margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 50px;
-  }
+}
 
 .clinical-right {
   font-size: 20px;
   flex: 1;
-  margin-top:50px;
+  margin-top: 50px;
   margin-bottom: 20px;
   margin-left: 50px;
 }
 
-
-/* Expertise section from W3 school for side by side table */
-/* adpatation form Yannis*/
+/* Expertise section */
 #Expertise {
   background-color: rgb(0, 0, 0);
-  display:flex;
+  display: flex;
 }
+
 .Elisabeth {
- margin-left: 30%;
- margin-top: 5%;
+  margin-left: 30%;
+  margin-top: 5%;
 }
 
 .expertisetitle h2 {
-  color:#04948aed;
+  color: #04948aed;
   text-align: center;
 
 }
+
 .rolestitle h2 {
-  color:#04948aed;
+  color: #04948aed;
   text-align: center;
   margin-top: 10%;
   margin-bottom: 2.5%;
 }
 
 .educationtitle h2 {
-  color:#04948aed;
+  color: #04948aed;
   text-align: center;
   margin-bottom: 2.5%;
 }
@@ -179,6 +190,7 @@ h2 {
   min-height: 200px;
   padding: 0px 20px 0px 20px;
 }
+
 .right-block {
   background-color: black;
   width: 50%;
@@ -186,29 +198,31 @@ h2 {
 }
 
 /*expertise text part arranged in divs to give them extra space */
-/* now new form Yannis* with deletions of the old*/
 .expertise {
   color: whitesmoke;
 }
+
 .over20years {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .translational {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .protocol {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
 .PV {
   margin-bottom: 10px;
   margin-top: 10px;
 }
 
-/*  table design form Yannis tables*/
-
+/*  table design*/
 table {
   border-collapse: collapse;
   border-spacing: 5px 5px;
@@ -217,81 +231,99 @@ table {
   background-color: white;
 }
 
-th, td {
+th,
+td {
   text-align: left;
   padding: 16px;
 }
-/* my attempt to push the edication table to the bottom*/
-/* all stays afeyr Yannis changes only relative got deleted form education table */
+
 table.education {
-  table-layout:auto;
-  width:100%;
+  table-layout: auto;
+  width: 100%;
   margin-bottom: 10%;
   height: 20px;
 }
+
 table.education td {
   min-width: 100px;
 }
+
 table.roles {
-  table-layout:auto;
-  width:100%;
+  table-layout: auto;
+  width: 100%;
   margin-top: 10%;
 }
+
 table.roles td {
   min-width: 100px;
   min-height: 200px;
 }
+
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
 
-/* contact form section form CI tutorial */
+/* contact form */
 #contact {
   background-color: lightblue;
   background-size: cover;
   background-position: 75%;
   padding: 20px 10% 0 10%;
 }
-/* formate the container of the form -Add a background color and some padding around the form */
+
+/* container of the contact form */
 .outer-container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  display:flex;
+  display: flex;
 }
+
 .side-by-side-email {
-  color:darkblue;
- flex:1;
- min-width: 150px;
- margin-left: 10px;
+  color: darkblue;
+  flex: 1;
+  min-width: 150px;
+  margin-left: 10px;
 }
 
 .side-by-side-mobile {
- color:darkblue;
- flex:1;
- min-width: 150px;
- margin-left: 10px;
+  color: darkblue;
+  flex: 1;
+  min-width: 150px;
+  margin-left: 10px;
 }
+
 .form-container {
-  flex:1;
+  flex: 1;
   min-width: 300px;
 }
+
 #subject {
   height: 200px;
 }
 
- /*added the contact form from We3 schools */
+/*added the contact form from We3 schools */
 
- /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -314,15 +346,14 @@ input[type=submit]:hover {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-  display:flex;
+  display: flex;
 }
-
-
-
 
 /* Footer */
-footer {background-color:#000000;
+footer {
+  background-color: #000000;
 }
+
 #Impressum {
   text-align: center;
   padding: 10px 0;
@@ -330,61 +361,75 @@ footer {background-color:#000000;
   justify-content: space-evenly;
   margin-top: 20px;
 }
-.LIlabel{
+
+.LIlabel {
   font-size: 160%;
   padding: 2%;
-  background-color:white;
+  background-color: white;
   margin-bottom: 10px;
 }
+
 .impressumh5 {
   margin-top: 50px;
 }
 
+/* Media queries */
+
 /* Add responsiveness for Home page with smaller letters for screens less than 920 pixels */
 @media screen and (max-width: 920px) {
   .title h1 {
-   font-size:30px;
+    font-size: 30px;
   }
- }
- 
- /* Add responsiveness  for navbar from W3school- will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
- @media screen and (max-width: 500px) {
- .navbar a {
-   float: none;
-   display: block;
-   padding: 3px;
-   margin-bottom: 5px;
-   margin-right: 10px;}
-   
-   header { 
-   min-height: 120px;}
- }
+}
 
- /* Responsive layout - for Services, Expertise and Footer  on screens that are smaller than 600 px */
+/* Add responsiveness  for navbar - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    padding: 3px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+  }
+
+  header {
+    min-height: 120px;
+  }
+}
+
+/* Responsive layout for Services, Expertise and Footer on screens, smaller than 600 px */
 @media screen and (max-width: 600px) {
-.development-left, .clinical-right {
-width: 100%;
-font-size: 17px;
-margin-left: 0;
-padding: 20px}
+
+  .development-left,
+  .clinical-right {
+    width: 100%;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 20px
+  }
 
   .container-list {
-    display:block;
+    display: block;
   }
 
-.left-block, .right-block {
-  width: 100%;
-}
-#Expertise {
-  display: block;}
+  .left-block,
+  .right-block {
+    width: 100%;
+  }
 
-#Impressum {
-  margin-top: 2px;
-}
-.impressumh5 {
-  margin-top: 10px;
-}
-.LIlabel {
-  margin-right: 5px;
-}
+  #Expertise {
+    display: block;
+  }
+
+  #Impressum {
+    margin-top: 2px;
+  }
+
+  .impressumh5 {
+    margin-top: 10px;
+  }
+
+  .LIlabel {
+    margin-right: 5px;
+  }
 }
