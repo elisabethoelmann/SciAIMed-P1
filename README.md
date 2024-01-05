@@ -158,7 +158,7 @@ I validated my index.html, contact.html and style.css while working on them. Fin
 
 ![](docs/images/wcmarkup_validation_indexhtml.png)
 ![](docs/images/wcmarkup_validation_css.png)
-![](docs/images/wcmarkup_validation_indexhtml.png)
+![](docs/images/wcmarkup_validation_contacthtml.png)
 
 ## Deployment
 
